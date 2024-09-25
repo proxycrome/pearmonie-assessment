@@ -38,8 +38,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### `See the how to navigate the application`
+## See the how to navigate the application
 
 [Click here to see how to navigate the app](https://scribehow.com/shared/Logging_Into_Pearmonie_Assessment__1hzGUcjOT--kfls9q43NMw)
