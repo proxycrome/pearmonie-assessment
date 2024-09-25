@@ -8,10 +8,10 @@ Clone the repository:
 git clone https://github.com/proxycrome/pearmonie-assessment.git
 
 navigate into the project folder using the following command:
-cd pearmonie-assessment
+### `cd pearmonie-assessment`
 
 install the neccessary dependecies using the following command:
-npm install
+### `npm install`
 
 ## Getting Started
 
