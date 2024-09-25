@@ -1,0 +1,213 @@
+.sidebar {
+    position: sticky;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.wrapper {
+    width: 306px;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding: 30px 30px 30px 20px;
+    position: relative;
+}
+
+.minWrapper {
+    width: 100px;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding: 30px;
+    position: relative; 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;   
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 20px;
+}
+
+.logo .logoname {
+    display: flex;
+    gap: 1px;
+    align-items: baseline;
+}
+
+.logoname h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.navWrapper {
+    width: 100%;
+    text-decoration: none;
+}
+
+.navWrapper:focus{
+    color: #000000;
+}
+
+.navWrapper .nav .navContent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.navWrapper .minNav .minNavContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navWrapper .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.navWrapper .minNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.activeLink .nav {
+    background-color: #5932EA;
+    color: white;
+}
+
+.activeLink .minNav {
+    background-color: #5932EA;
+    color: white;
+}
+
+.activeLink .nav img {
+    filter: invert(0%) brightness(200%) saturate(5000%);
+}
+
+.activeLink .minNav img {
+    filter: invert(0%) brightness(200%) saturate(5000%);
+}
+
+.inactiveLink .nav img {
+    filter: invert(100%);
+}
+
+.inactiveLink .minNav img {
+    filter: invert(100%);
+}
+
+.inactiveLink nav {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.inactiveLink .minNav {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.profileBox {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gradientBox {
+    background-image: url('../../assets/linear-gradient.svg');
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradientBox .text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gradientBox .text p {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.gradientBox .text button {
+    width: 203px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #4925E9;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.profileContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profileItems {
+    display: flex;
+    justify-items: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.arrow {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 20px;
+    right: -15px;
+    box-shadow: 1px 0px 0px 3px rgba(232,218,218,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logout {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #1E2772;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.logout span{
+    color: #ffffff;
+}
+
+@media screen and (max-width: 1150px) {
+    
+}
